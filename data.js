@@ -29,7 +29,8 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
       "linkHotspots": [],
-      "infoHotspots": [
+      "infoHotspots": [],
+      "tipHotspots": [
         {
           "yaw": -0.07959458102301298,
           "pitch": -0.22365486730027584,
@@ -39,6 +40,7 @@ var APP_DATA = {
       ]
     }
   ],
+        
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
