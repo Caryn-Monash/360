@@ -99,7 +99,13 @@
       var element = createInfoHotspotElement(hotspot);
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
     });
-
+    
+    // Create tool tip hotspots.
+    data.tipHotspots.forEach(function(hotspot) {
+      var element = createInfoHotspotElement(hotspot);
+    scene.hotspotContainer().createHotspot(document.querySelector("#tooltip"), { yaw: hotspot.yaw, pitch: hotspot.pitch });
+    });
+    
     return {
       data: data,
       scene: scene,
