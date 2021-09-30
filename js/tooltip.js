@@ -15,4 +15,4 @@
  */
 'use strict';
 
-scene.hotspotContainer().createHotspot(document.querySelector("#tooltip"), { yaw: 2.95, pitch: -0.05 });
+scene.hotspotContainer().createHotspot(document.querySelector("#tooltip"), { yaw: -0.07959458102301298, pitch: -0.22365486730027584 });
